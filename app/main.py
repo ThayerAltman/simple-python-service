@@ -1,10 +1,14 @@
-from fastapi import FastAPI, APIRouter
+from fastapi import FastAPI, APIRouter, Response
 
 
 app = FastAPI(title="Recipe API", openapi_url="/openapi.json")
 
 api_router = APIRouter()
 
+
+@app.get("/health-check")
+def health_check():
+    return Response(status_code=200)
 
 @api_router.get("/", status_code=200)
 def root() -> dict:
