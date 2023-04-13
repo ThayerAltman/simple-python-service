@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "simple-python-service"
+  tags: [python]
 spec:
   type: service
   owner: group:web-backend
