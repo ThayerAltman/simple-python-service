@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "simple-python-service"
+spec:
+  type: service
+  owner: group:web-backend
+  lifecycle: experimental
