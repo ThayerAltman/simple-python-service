@@ -6,4 +6,4 @@ metadata:
 spec:
   type: service
   owner: group:web-backend
-  lifecycle: experimental
+  lifecycle: production
