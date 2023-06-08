@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: "simple-python-service"
   tags: [python]
+  langauges: [python]
 spec:
   type: service
   owner: group:web-backend
