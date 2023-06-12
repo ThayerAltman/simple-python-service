@@ -4,6 +4,8 @@ metadata:
   name: "simple-python-service"
   tags: [python]
   langauges: [python]
+  annotations:
+    pagerduty.com/integration-key: 123456789abcdef1234567890abcdef
 spec:
   type: service
   owner: group:web-backend
