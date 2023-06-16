@@ -6,9 +6,6 @@ metadata:
   languages: [python]
   annotations:
     pagerduty.com/integration-key: 123456789abcdef1234567890abcdef
-    links:
-      - www.google.com
-      - www.stackoverflow.com
 spec:
   type: service
   owner: group:web-backend
